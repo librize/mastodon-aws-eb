@@ -1,0 +1,4 @@
+MAILTO=""
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+7 18 * * * root docker exec -it `docker ps -q` bin/daily.sh > /dev/null 2>&1
