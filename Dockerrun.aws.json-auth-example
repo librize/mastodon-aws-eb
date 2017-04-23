@@ -1,0 +1,14 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "YOUR IMAGE URL"
+  },
+  "Ports": [
+    { "ContainerPort": "4000" }
+  ],
+  "Authentication": {
+    "Bucket": "YOUR AUTH S3 BUCKET",
+    "Key": "YOUR AUTH CONFIG FILE"
+  },
+  "Logging": "/var/log"
+}
